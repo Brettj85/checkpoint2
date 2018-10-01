@@ -254,7 +254,6 @@ canvas{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: flex-start;
   width: 0;
   overflow: hidden;
 }
@@ -269,5 +268,5 @@ canvas{
 }
 
 .navContent > div:hover{
-  color: rgb(87, 82, 82)
+  color: rgba(54, 50, 50, 0.397);
 }
