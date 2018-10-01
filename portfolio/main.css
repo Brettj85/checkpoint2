@@ -246,9 +246,41 @@ canvas{
     "box5 box5 box6 box6";
 }
 .box{
-  background-color: chartreuse;
+  background-color: rgba(43, 42, 42, 0.9);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
 }
 
+.box1 > div:nth-of-type(1){
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size:20px;
+}
+
+.box1 > div:nth-of-type(1) > div{
+  background-color: azure;
+  cursor: pointer;
+}
+
+.box1 > div:nth-of-type(1) > div:hover{
+  background-color: black;
+  color: white;
+}
+
+.mainContent > div:nth-of-type(1){
+  background-image: url(./pics/CheckPoint1img.png);
+  background-size: 100%;
+}
+
+ .iframe{
+   width: 100%;
+   height: 100%;
+ }
 
 /* ---- Nav ----*/ 
 .navigation{
