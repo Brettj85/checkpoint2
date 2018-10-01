@@ -1,0 +1,22 @@
+.mainContent{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top:40vh;
+  left: 20vw;
+  overflow: visible;
+  background-color:rgba(0,0,0,.8);
+  color: white;
+  font-size: 30px;
+}
+
+.instruct{
+
+  font-size: 10px;
+
+}
+
+.mainContent > .instruct{
+  justify-content: right;
+}
