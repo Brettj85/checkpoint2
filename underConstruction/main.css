@@ -198,9 +198,6 @@ canvas{
 
 /* ---- Main Content ----*/ 
 .mainContent{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
   position: absolute;
   top:0vh;
   left: 20vw;
