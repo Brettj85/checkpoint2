@@ -268,5 +268,6 @@ canvas{
 }
 
 .navContent > div:hover{
-  color: rgba(54, 50, 50, 0.397);
+  color: rgb(0, 0, 0);
+  background-color: white;
 }
