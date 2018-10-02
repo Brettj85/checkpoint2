@@ -196,7 +196,7 @@ canvas{
   background-repeat: no-repeat;
 }
 
-
+/* ---- Main Content ----*/ 
 .mainContent{
   display: flex;
   flex-direction: column;
@@ -216,7 +216,6 @@ canvas{
 
 }
 
-/* ---- Main Content ----*/ 
 .mainContent > .instruct{
   justify-content: right;
 }
