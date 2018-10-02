@@ -207,6 +207,10 @@ canvas{
   font-size: 30px;
 }
 
+.construction{
+  height: 200px;
+  width: 200px;
+}
 
 /* ---- Nav ----*/ 
 .navigation{
