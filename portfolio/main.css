@@ -294,7 +294,7 @@ canvas{
   color: white;
   font-size: 30px;
   width: 30px;
-  height: 20vh;
+  height: 600px;
   overflow: hidden;
   transition: 1s;
 }
