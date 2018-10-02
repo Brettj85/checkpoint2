@@ -214,7 +214,7 @@ canvas{
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  top: 10vh;
+  top: 20vh;
   right: 0;
   background-color:rgba(0, 0, 0, 0.8);
   color: white;
