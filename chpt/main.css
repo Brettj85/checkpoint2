@@ -233,7 +233,7 @@ canvas{
   color: white;
   font-size: 30px;
   width: 30px;
-  height: 20vw;
+  height: 20vh;
   overflow: hidden;
   transition: 1s;
 }
