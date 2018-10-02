@@ -345,3 +345,78 @@ canvas{
   height: 100%;
   width: 100%;
 }
+
+@media (max-width: 768px){
+
+  .navigation{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 30px;
+    width: 300px;
+    height: 30px;
+    overflow: hidden;
+    transition: 1s;
+  }
+  .expandNav{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(54, 50, 50, 0.342);
+    transition: 1s;
+  }
+  .expandNav > div{
+    width: 30px;
+    height: 30px;
+    transition: 1s;
+  }
+  .arrow{
+    transform: rotate(-90deg); 
+    width: 100%;
+    height: 100%;
+  }
+  
+  .navContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+  }
+  .navigation:hover{
+    height: 300px;
+  }
+  .navigation:hover > .navContent{
+    height: auto;
+  }
+  .navigation:hover > .expandNav > div{
+    transform: rotate(180deg); 
+  }
+  
+  .navContent > div:hover{
+    background-color: white;
+  }
+  
+  .navContent > div:hover > a{
+    color: rgb(0, 0, 0);
+  }
+  
+  .smIcons{
+    height: 100%;
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width: 576px){
+
+}

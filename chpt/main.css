@@ -288,21 +288,21 @@ canvas{
 
   .navigation{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
     position: absolute;
-    bottom: 0;
-    left: 5vw;
+    top: 0;
     background-color:rgba(0, 0, 0, 0.8);
     color: white;
     font-size: 30px;
-    width: 600px;
+    width: 300px;
     height: 30px;
     overflow: hidden;
     transition: 1s;
   }
   .expandNav{
     display: flex;
+    flex-direction: row;
     width:100%;
     height: 30px;
     align-items: center;
@@ -311,24 +311,26 @@ canvas{
     transition: 1s;
   }
   .expandNav > div{
+    width: 30px;
+    height: 30px;
     transition: 1s;
   }
   .arrow{
-    transform: rotate(90deg); 
+    transform: rotate(-90deg); 
     width: 100%;
     height: 100%;
   }
   
   .navContent{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     height: 0;
     overflow: hidden;
     transition: 1s;
   }
   .navigation:hover{
-    height: 150px;
+    height: 300px;
   }
   .navigation:hover > .navContent{
     height: auto;
