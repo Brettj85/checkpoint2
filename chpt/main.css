@@ -233,7 +233,7 @@ canvas{
   color: white;
   font-size: 30px;
   width: 30px;
-  height: 40vw;
+  height: 600px;
   overflow: hidden;
   transition: 1s;
 }
@@ -263,7 +263,7 @@ canvas{
   transition: 1s;
 }
 .navigation:hover{
-  width: auto;
+  width: 300px;
 }
 .navigation:hover > .navContent{
   width: auto;
