@@ -324,7 +324,7 @@ canvas{
   transition: 1s;
 }
 .navigation:hover{
-  width:10vw;
+  width: auto;
 }
 .navigation:hover > .navContent{
   width: auto;
