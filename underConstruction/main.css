@@ -214,13 +214,13 @@ canvas{
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  top: 0;
+  top: 10vh;
   right: 0;
   background-color:rgba(0, 0, 0, 0.8);
   color: white;
   font-size: 30px;
   width: 30px;
-  height: 40vh;
+  height: 400px;
   overflow: hidden;
   transition: 1s;
 }
@@ -250,7 +250,7 @@ canvas{
   transition: 1s;
 }
 .navigation:hover{
-  width: auto;
+  width: 150px;
 }
 .navigation:hover > .navContent{
   width: auto;
