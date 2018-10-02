@@ -220,7 +220,7 @@ canvas{
   color: white;
   font-size: 30px;
   width: 30px;
-  height: 600px;
+  height: 40vh;
   overflow: hidden;
   transition: 1s;
 }
