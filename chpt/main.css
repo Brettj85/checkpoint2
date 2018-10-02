@@ -233,7 +233,7 @@ canvas{
   color: white;
   font-size: 30px;
   width: 30px;
-  height: 600px;
+  height: 400px;
   overflow: hidden;
   transition: 1s;
 }
@@ -243,7 +243,7 @@ canvas{
   height: 100%;
   align-items: center;
   justify-content: center;
-  background-color:rgba(54, 50, 50, 0.1);
+  background-color:rgba(54, 50, 50, 0.342);
   transition: 1s;
 }
 .expandNav > div{
@@ -263,7 +263,7 @@ canvas{
   transition: 1s;
 }
 .navigation:hover{
-  width: 300px;
+  width: 100px;
 }
 .navigation:hover > .navContent{
   width: auto;
