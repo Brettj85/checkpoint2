@@ -340,3 +340,8 @@ canvas{
 .navContent > div:hover > a{
   color: rgb(0, 0, 0);
 }
+
+.smIcons{
+  height: 100%;
+  width: 100%;
+}
