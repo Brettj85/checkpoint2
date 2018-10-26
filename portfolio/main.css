@@ -277,6 +277,29 @@ canvas{
   background-size: 100%;
 }
 
+.box2 > div:nth-of-type(1){
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size:20px;
+}
+
+.box2 > div:nth-of-type(1) > div{
+  background-color: azure;
+  cursor: pointer;
+}
+
+.box2 > div:nth-of-type(1) > div:hover{
+  background-color: black;
+  color: white;
+}
+
+.mainContent > div:nth-of-type(2){
+  background-image: url(./pics/islandSurvival.PNG);
+  background-size: 100%;
+}
+
 /* ---- Nav ----*/ 
 .navigation{
   display: flex;
