@@ -301,10 +301,10 @@ canvas{
 .box2 > div:nth-of-type(1) > div > a:hover{
   color: white;
 }
-.mainContent > div:nth-of-type(2){
+/* .mainContent > div:nth-of-type(2){
   background-image: url(./pics/islandSurvival.PNG);
   background-size: 100%;
-}
+} */
 
 /* ---- Nav ----*/ 
 .navigation{
