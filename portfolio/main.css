@@ -272,10 +272,10 @@ canvas{
   color: white;
 }
 
-.mainContent > div:nth-of-type(1){
+/* .mainContent > div:nth-of-type(1){
   background-image: url(./pics/CheckPoint1img.png);
   background-size: 100%;
-}
+} */
 
 .box2 > div:nth-of-type(1){
   width:100%;
