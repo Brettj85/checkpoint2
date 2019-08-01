@@ -13,13 +13,17 @@
 <div id="particles-js"></div>
 
 <!-- main content -->
-<div class = "mainContentBio">
-  <div class="bio-main" id="style-2">
+<div class = "mainContentBio-black" id ="MainContentBio">
+  <div class="bio-main-black" id="style-2">
     <div class="bio-main-title">
       <div>Brett Jackson</div>
+      <div class="color-change-container">
+        <div class="color-change" id="change-white" style="background-color: white; border:1px solid black;"></div>
+        <div class="color-change" id="change-black" style="background-color: black; border:1px solid white;"></div>
+      </div>
     </div>
     <div class="bio-main-content">
-      <div class="main-content-section">
+      <div class="main-content-section-black" id="main-content-section-1">
           <div class="bio-section-title">About</div>
           <div class="bio-section-content">
             My name is Brett Jackson and I am a technology professional with a 
@@ -27,10 +31,10 @@
             and automation. 
           </div>
       </div>
-      <div class="main-content-section">
+      <div class="main-content-section-black" id="main-content-section-2">
           <div class="bio-section-title">Professional Passon</div>
-          <div class="bio-section-content">
-              I may be a fully capable network engineer, but my real passion 
+          <div class="bio-section-content"  id="bio-section-content">
+              I may be a fully capable network engineer, but my real passon 
               lies with software development. Between freelancing and study
               I devote hours every single day, but it doesn’t feel like work 
               to me. My ideal job would be in software development with the .Net 
@@ -38,9 +42,9 @@
               enjoy all software development.
           </div>
       </div>
-      <div class="main-content-section">
+      <div class="main-content-section-black" id="main-content-section-3">
           <div class="bio-section-title">Personal Passion</div>
-          <div class="bio-section-content">
+          <div class="bio-section-content" id="bio-section-content">
               I spend my free time playing with and training Great Danes, inventing and 
               re-imagining devices using Raspberry Pi and 3d printing technology, playing guitar, 
               and working on cars and motorcycles. I try to spend at least a few hours a week 
@@ -48,9 +52,9 @@
               country of Texas.   
           </div>
       </div>
-      <div class="main-content-section">
+      <div class="main-content-section-black" id="main-content-section-4">
           <div class="bio-section-title">Rewards and Accolades</div>
-          <div class="bio-section-content">
+          <div class="bio-section-content" id="bio-section-content">
             <span style="font-size:20px">* One of 600 annual winners of the Charter Communications Achievement Award</span><br>
             This Award is presented monthly with an annual average of 600 winners. I achieved this award 3 times total once in 2016 
             twice in 2017.
@@ -76,7 +80,7 @@
     <div><a href="BrettJackson.docx" rel="nofollow noopener">Resume</a></div>
     <div><a href="bio.html">Bio</a></div>
     <div><a href="../underConstruction/index.html">Blog</div>
-      <div style="background-color:rgba(54, 50, 50, 0.342); height:auto; width:100%"><a href="https://www.linkedin.com/in/brett-jackson-57568554/"><img src="./pics/linkedin-icon.png" class = "smIcons"></a></div>
+      <div style="background-color:white; height:auto; width:100%"><a href="https://www.linkedin.com/in/brett-jackson-57568554/"><img src="./pics/linkedin-icon.png" class = "smIcons"></a></div>
     <div></div>
   </div>
 </nav>
@@ -84,5 +88,6 @@
 <!-- scripts -->
 <script src="../particles.js/particles.js"></script>
 <script src="./app.js"></script>
+<script src="./bio.js"></script>
 </body>
 </html>
