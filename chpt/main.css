@@ -284,6 +284,19 @@ canvas{
   width: 50px;
 }
 
+.mainContentBio{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top:40vh;
+  left: 20vw;
+  overflow: visible;
+  background-color:rgba(0,0,0,.8);
+  color: white;
+  font-size: 30px;
+}
+
 @media (max-width: 768px){
 
   .navigation{
