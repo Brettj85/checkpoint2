@@ -328,7 +328,7 @@ canvas{
   height: 100%;
   align-items: center;
   justify-content: center;
-  background-color:rgba(54, 50, 50, 0.1);
+  background-color:rgba(54, 50, 50, 0.342);
   transition: 1s;
 }
 .expandNav > div{
